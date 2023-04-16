@@ -1,4 +1,4 @@
-# NYC-PUMA-Clusters
+# NYC-Neighborhood-Clusters
 
 Using neighborhood characteristics that measure access and livability to cluster groups of New York City neighborhoods (PUMAs).
 
