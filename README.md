@@ -1,6 +1,6 @@
 # NYC-Neighborhood-Clusters
 
-Using neighborhood characteristics that measure access and livability to cluster groups of New York City neighborhoods (PUMAs).
+Uses neighborhood characteristics measuring access and livability to cluster groups of New York City neighborhoods (PUMAs)
 
 K-means clustering methodology
 
