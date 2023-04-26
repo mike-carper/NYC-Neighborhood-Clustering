@@ -4,7 +4,11 @@ Groups New York City neighborhoods (PUMAs) together based on characteristics mea
 
 K-means clustering methodology
 
-All data cleaned and prepared by NYC Planning's Enterprise Data Management division and downloaded from Equitable Development Data Explorer repository (https://github.com/NYCPlanning/db-equitable-development-tool/tree/main/resources). Input variables are all from ACS 5-Year 2015-2019, unless otherwise noted.
+Analysis conducted by Mike Carper
+
+Data prepared by NYC Planning's Enterprise Data Management team and downloaded from Equitable Development Data Explorer repository (https://github.com/NYCPlanning/db-equitable-development-tool/tree/main/resources)
+
+Input variables are all from ACS 5-Year 2015-2019, unless otherwise noted
 
 Input Variables:
     
