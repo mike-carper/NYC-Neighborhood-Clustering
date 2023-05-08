@@ -1,4 +1,4 @@
-# NYC-Neighborhood-Clusters
+# NYC-Neighborhood-Clustering
 
 This analysis groups New York City neighborhoods (PUMAs) together based on indicators measuring access to resources and resident quality of life. See 'notebooks/NYC_Neighborhood_Clustering_8_Indicators.ipynb' for marked-down code notebook. All code was written by Mike Carper, and all data files were extracted from the Equitable Development Data Explorer repository (https://github.com/NYCPlanning/db-equitable-development-tool/tree/main/resources). K-means clustering methodology was applied to the data over 2 trials, resulting in 2-cluster (Trial 1) and 4-cluster (Trial 2 - emphasized in notebook, outputs and results deck) neighborhood groupings along 8 indicators.
 
