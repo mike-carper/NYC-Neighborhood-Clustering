@@ -1,8 +1,12 @@
-pandas
-numpy
+black
 geopandas
-seaborn
-scikit-learn
-scipy
 matplotlib
 notebook
+numpy
+openpyxl
+pandas
+pytest
+scikit-learn
+scipy
+seaborn
+tabulate
