@@ -9,6 +9,13 @@ test_outputs_path = "tests/data/"
 test_csv_filename = "access_to_jobs.csv"
 test_excel_filename = "EDDT_UnitsAffordablebyAMI_2015-2019.xlsx"
 
+test_data_minimal = pd.DataFrame(
+    data={
+        "column_a": ["1", 2],
+        "column_b": ["3", 4],
+    }
+)
+
 
 def test_load_data_file():
     csv_data = load_data_file(f"{source_data_folder}{test_csv_filename}")
@@ -32,7 +39,7 @@ def test_load_data_file():
 
 def test_save_data_file():
     test_output_file_path = f"{test_outputs_path}test_save_data_file.xlsx"
-    data = pd.DataFrame.from_dict({"column_a": ["1", 2]})
+    data = test_data_minimal
     save_data_file(data, test_output_file_path)
 
     assert Path(test_output_file_path).is_file
