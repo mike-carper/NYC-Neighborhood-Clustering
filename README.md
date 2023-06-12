@@ -62,7 +62,8 @@ Trial 2 Cluster Demographics:
 - [x] start to add, test, and use utilities in notebook
 - [x] finish `clean_cluster_outputs`
 - [x] add exporting of results figures
-- [ ] push a branch to the repo to start a PR
+- [x] push a branch to the repo to start a PR
+- [ ] add some dev notes to readme
 - [ ] add a "minimal" clustering notebook
 - [ ] add total population to demographics figure
 - [ ] ...
