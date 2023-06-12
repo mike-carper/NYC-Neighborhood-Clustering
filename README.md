@@ -33,5 +33,36 @@ Trial 2 Cluster Demographics:
     * Cluster 3 has the greatest share of White non-Hispanic residents and the highest median income.
     * Cluster 1 has the lowest median income and greatest share of Black non-Hispanic and Hispanic residents.
     * Clusters 0 and 2 are the most representative of NYC as a whole in terms of race and ethnicity makeup.
-    
-    
+
+## Jupyter notebook outline
+
+1. Intro
+2. Data Loading
+   - load local files
+   - rename columns
+   - set geographic projections
+   - ...
+3. Data Processing
+   - create an input variable DataFrame
+   - create sets of variables
+   - explore correlations
+   - explore silhouette and elbow methods
+   - ...
+4. Clustering
+   - do the clustering
+   - ...
+5. Results
+
+## Todo
+
+- [x] outline stages of main notebook
+- [x] add a .gitignore
+- [x] list python packages and add script for VS code venv setup
+- [x] add python tests
+- [x] start to add, test, and use utilities in notebook
+- [x] finish `clean_cluster_outputs`
+- [x] add exporting of results figures
+- [ ] push a branch to the repo to start a PR
+- [ ] add a "minimal" clustering notebook
+- [ ] add total population to demographics figure
+- [ ] ...
