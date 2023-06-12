@@ -74,17 +74,3 @@ To run python tests:
 2. Run all tests using `python3 -m pytest`
 
 3. Run a specific test using the pattern `python3 -m pytest tests/test_examples.py::test_always_passes`
-
-## Todo
-
-- [x] outline stages of main notebook
-- [x] add a .gitignore
-- [x] list python packages and add script for VS code venv setup
-- [x] add python tests
-- [x] start to add, test, and use utilities in notebook
-- [x] finish `clean_cluster_outputs`
-- [x] add exporting of results figures
-- [x] push a branch to the repo to start a PR
-- [x] add some dev notes to readme
-- [x] cleanup test stuff
-- [ ] add a "minimal" clustering notebook
