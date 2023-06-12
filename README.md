@@ -86,6 +86,7 @@ To run python tests:
 - [x] add exporting of results figures
 - [x] push a branch to the repo to start a PR
 - [x] add some dev notes to readme
+- [x] cleanup test stuff
 - [ ] add a "minimal" clustering notebook
 - [ ] add total population to demographics figure
 - [ ] ...
