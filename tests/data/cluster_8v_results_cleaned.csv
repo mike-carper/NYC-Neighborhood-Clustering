@@ -1,0 +1,5 @@
+labels,park_perc,job_perc,comp_access,bach_degr,empl_rate,rent_under30,subway_sbs,infant_mortality_per1000,PUMA_count
+Cluster 0,75.55,95.26,75.34,35.92,94.00,44.74,43.73,3.21,19
+Cluster 1,96.98,98.91,66.26,28.06,90.81,42.97,67.99,4.72,14
+Cluster 2,67.49,39.49,76.72,27.93,93.51,46.02,22.26,4.81,15
+Cluster 3,95.41,100.00,89.61,76.86,95.81,60.51,72.37,1.74,7
