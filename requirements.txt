@@ -69,11 +69,11 @@ fastjsonschema==2.17.1
     # via nbformat
 fiona==1.9.4.post1
     # via geopandas
-fonttools==4.39.4
+fonttools==4.40.0
     # via matplotlib
 fqdn==1.5.1
     # via jsonschema
-geopandas==0.13.1
+geopandas==0.13.2
     # via -r requirements.in
 idna==3.4
     # via
@@ -219,7 +219,7 @@ pickleshare==0.7.5
     # via ipython
 pillow==9.5.0
     # via matplotlib
-platformdirs==3.5.1
+platformdirs==3.5.3
     # via
     #   black
     #   jupyter-core
@@ -248,11 +248,11 @@ pygments==2.15.1
     #   nbconvert
 pyparsing==3.0.9
     # via matplotlib
-pyproj==3.5.0
+pyproj==3.6.0
     # via geopandas
 pyrsistent==0.19.3
     # via jsonschema
-pytest==7.3.1
+pytest==7.3.2
     # via -r requirements.in
 python-dateutil==2.8.2
     # via
@@ -355,5 +355,5 @@ webencodings==0.5.1
     # via
     #   bleach
     #   tinycss2
-websocket-client==1.5.2
+websocket-client==1.5.3
     # via jupyter-server
