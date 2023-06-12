@@ -1,5 +1,2 @@
 # python cache files
 __pycache__/
-
-# vs code formatting extension
-.trunk/
