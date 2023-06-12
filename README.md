@@ -88,5 +88,3 @@ To run python tests:
 - [x] add some dev notes to readme
 - [x] cleanup test stuff
 - [ ] add a "minimal" clustering notebook
-- [ ] add total population to demographics figure
-- [ ] ...
