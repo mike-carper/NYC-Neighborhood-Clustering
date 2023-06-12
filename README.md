@@ -33,5 +33,44 @@ Trial 2 Cluster Demographics:
     * Cluster 3 has the greatest share of White non-Hispanic residents and the highest median income.
     * Cluster 1 has the lowest median income and greatest share of Black non-Hispanic and Hispanic residents.
     * Clusters 0 and 2 are the most representative of NYC as a whole in terms of race and ethnicity makeup.
-    
-    
+
+## Jupyter notebook outline
+
+1. Intro
+2. Data Loading
+   - load local files
+   - rename columns
+   - set geographic projections
+   - ...
+3. Data Processing
+   - create an input variable DataFrame
+   - create sets of variables
+   - explore correlations
+   - explore silhouette and elbow methods
+   - ...
+4. Clustering
+   - do the clustering
+   - ...
+5. Results
+
+## Development
+
+To run clustering code using VS Code:
+
+1. Install the Jupyter extension in VS Code
+
+2. Create a python 3.11 virtual environment named `.venv` in the repo's top-level directory
+   > An easy way to do this is by opening a Jupyeter notebook from this repo and using the `Select Notebook Kernel` command. The series of menu selections are `Select Notebook Kernel` -> `Select Another Kernel...` -> `Python Environments...` -> `Venv` -> `Python 3.11`
+
+3. From the terminal, run `./bash/setup_environment.sh` to install python packages in the python virtual environment
+
+4. Run the relevant Jupyter notebook
+
+To run python tests:
+
+1. From the terminal, activate the virtual environemnt using `source .venv/bin/activate`
+   > Confirm it's been activated using `which python`
+
+2. Run all tests using `python3 -m pytest`
+
+3. Run a specific test using the pattern `python3 -m pytest tests/test_examples.py::test_always_passes`

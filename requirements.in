@@ -1,0 +1,12 @@
+black
+geopandas
+matplotlib
+notebook
+numpy
+openpyxl
+pandas
+pytest
+scikit-learn
+scipy
+seaborn
+tabulate
